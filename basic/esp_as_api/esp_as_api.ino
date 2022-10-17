@@ -4,8 +4,8 @@
 #include "AsyncJson.h"
 #include "ArduinoJson.h"
 AsyncWebServer server(80);
-const char *ssid = "Redmii";
-const char *password = "ayoubachak01";
+const char *ssid = "Orange_wifi_50D9";
+const char *password = "n39B2aDYMAE";
 void notFound(AsyncWebServerRequest *request)
 {
   request->send(404, "application/json", "{\"message\":\"Not found\"}");
