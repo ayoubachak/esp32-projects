@@ -1,7 +1,7 @@
 
 #include <WiFi.h>
-const char* ssid = "Samsung";
-const char* password = "ismail12345";
+const char* ssid = "Orange_wifi_50D9";
+const char* password = "n39B2aDYMAE";
 
 WiFiServer server(80); // Port 80
 
