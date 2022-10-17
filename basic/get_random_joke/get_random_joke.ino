@@ -11,8 +11,8 @@
 #include <ArduinoJson.h>
  
 //Provide your own WiFi credentials
-const char* ssid = "Redmii";
-const char* password = "ayoubachak01";
+const char* ssid = "Orange_wifi_50D9";
+const char* password = "n39B2aDYMAE";
 //String for storing server response
 String response = "";
 //JSON document
@@ -59,5 +59,5 @@ void loop(void) {
   //Close connection  
   http.end();
   //Wait two seconds for next joke
-  delay(2000);
+  delay(5000);
 }
