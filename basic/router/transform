@@ -1,0 +1,6 @@
+            ;
+
+client.println("<!doctype html>");
+client.println("p {");
+client.println("    text-align: center");
+client.println("}");
