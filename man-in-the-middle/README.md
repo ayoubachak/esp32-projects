@@ -1,0 +1,5 @@
+# This is harder than you might think
+I want to do this project just to see how vulurable can people be when dealing with WIFI networks and experience the limit that I can reach in social engineering.
+The idea of this project is that the user will connect to the esp's access point and when he sends a request to the esp to get the data from a website the esp will take the header information which may sometimes contain the access token to that website.. and my goal is to get that sensitive data directly from the esp (when it find is it should send it to a database to be stored)
+This is hard on an esp because some websites that are usually visited by users have megabytes of data to be loaded which exced the memory on the esp by a far difference as the esp's RAM weighs 520KB.
+So I will later link the project I do in a different github repo.. it's either going to be on a raspberry pi or as an android application.
